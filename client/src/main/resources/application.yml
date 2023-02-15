@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    url: r2dbc:pool:mariadb://localhost:3306/keycloak_client
+    username: root
+    password: mariadb
+server:
+  port: 12345
+
+
+
+
+keylcoak:
+  publickey: publickey
